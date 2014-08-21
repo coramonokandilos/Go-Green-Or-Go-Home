@@ -1,0 +1,284 @@
+body{
+    background-color: #005400
+}
+body, input, select, textarea {
+    color: white;
+/*     //font-family: 'Source Sans Pro', sans-serif; */
+font-family: 'Inconsolata';
+	font-size: 14pt;
+    font-size: 15pt;
+    font-weight: 300 !important;
+    letter-spacing: -0.025em;
+    line-height: 1.75em;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+input{
+	color:black;
+}
+
+#title, #footer {
+    text-align: center ;
+}
+
+#footer {
+    bottom: 0;
+    cursor: default;
+    height: 6em;
+    left: 0;
+    line-height: 8em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+#Quiz {
+    text-align: center;
+}
+
+#mission {
+    text-align: center;
+    color: #9c9c9c;
+    font-weight: 200 !important;
+    font-family: 'Inconsolata';
+	font-size: 14pt;
+
+}
+
+#chartInstructions {
+    text-align: center;
+    color: #9c9c9c;
+    font-family: 'Inconsolata';
+	font-size: 14pt;
+    font-weight: 200 !important;
+}
+
+#homepage-title{
+    text-align: center;
+    color: #6B9C60;
+/*     color: #17D7DA; */
+	font-family: 'Raleway', sans-serif;    font-size: 16pt;
+    font-weight: 300 !important;
+}
+
+
+.button
+{
+    /*-webkit-appearance: none;*/
+    margin-top: 15px;
+    position: relative;
+    display: inline-block;
+    background: #98c593;
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    /*-moz-transition: all 0.25s ease-in-out;*/
+    /*-webkit-transition: all 0.25s ease-in-out;*/
+    /*-o-transition: all 0.25s ease-in-out;*/
+    /*-ms-transition: all 0.25s ease-in-out;*/
+    transition: all 0.25s ease-in-out;
+    width: 80px;
+    font-family: 'Inconsolata';
+	font-size: 12pt;
+
+}
+
+.button:hover
+{
+    background: #4f4f4f;
+}
+
+.divider {
+    padding-top: 15px;
+}
+
+#menuBar {
+    margin-top: -30px;
+}
+#inner {
+    width: 50%;
+    margin: 0 auto;
+    background: #4D644D;
+    padding: 0.85em 3em 0.85em 3em;
+    border-radius: 0.8em;
+    margin-top: 30px;
+}
+#wordBox {
+    color: #000000
+}
+#electricChart, #gasChart, #waterChart {
+    width: 1500px;
+    left: 300px;
+}
+
+#menuBar-buttons-home, #menuBar-buttons-game{
+    margin-top: 28px;
+}
+
+#menuBar-buttons{
+    margin-top: 30px
+}
+#menuBar-buttons-funFacts{
+    margin-top:36px;
+}
+#main, #charts-header{
+    text-align: center;
+
+}
+
+#inner2 {
+    width: 60%;
+    margin: 0 auto;
+    margin-left: 282px;
+    background: #CFCFCF;
+    padding: 0.85em 3em 0.85em 3em;
+    border-radius: 0.8em;
+    margin-top: 30px;
+    font-family: 'Inconsolata';
+	font-size: 14pt;
+}
+
+#inner-game {
+    width: 50%;
+    margin: 0 auto;
+    margin-left: 350px;
+    background: #4D644D;
+    padding: 0.85em 3em 0.85em 3em;
+    border-radius: 0.8em;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Inconsolata';
+	font-size: 14pt;
+}
+
+.game-button{
+	margin-top: 15px;
+    position: relative;
+    display: inline-block;
+    background: #98c593;
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    /*-moz-transition: all 0.25s ease-in-out;*/
+    /*-webkit-transition: all 0.25s ease-in-out;*/
+    /*-o-transition: all 0.25s ease-in-out;*/
+    /*-ms-transition: all 0.25s ease-in-out;*/
+    transition: all 0.25s ease-in-out;
+	width: 130px;
+	height: 60px;
+	font-family: 'Inconsolata';
+	font-size: 14pt;
+}
+
+.quiz-button{
+	margin-top: 15px;
+    position: relative;
+    display: inline-block;
+    background: #98c593;
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    /*-moz-transition: all 0.25s ease-in-out;*/
+    /*-webkit-transition: all 0.25s ease-in-out;*/
+    /*-o-transition: all 0.25s ease-in-out;*/
+    /*-ms-transition: all 0.25s ease-in-out;*/
+    transition: all 0.25s ease-in-out;
+	width: 160px;
+	height: 60px;
+	font-family: 'Inconsolata';
+	font-size: 12pt;
+}
+
+.chart-button{
+	margin-top: 15px;
+	margin-left: 470px;
+    position: relative;
+    display: inline-block;
+    background: #98c593;
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    /*-moz-transition: all 0.25s ease-in-out;*/
+    /*-webkit-transition: all 0.25s ease-in-out;*/
+    /*-o-transition: all 0.25s ease-in-out;*/
+    /*-ms-transition: all 0.25s ease-in-out;*/
+    transition: all 0.25s ease-in-out;
+	width: 100px;
+	height: 60px;
+	font-family: 'Inconsolata';
+	font-size: 14pt;
+}
+
+.ss-q-title, .ss-form-title{
+	text-align: center;
+}
+
+.chart-button-gas{
+	margin-top: 15px;
+	margin-left: 470px;
+    position: relative;
+    display: inline-block;
+    background: #98c593;
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    /*-moz-transition: all 0.25s ease-in-out;*/
+    /*-webkit-transition: all 0.25s ease-in-out;*/
+    /*-o-transition: all 0.25s ease-in-out;*/
+    /*-ms-transition: all 0.25s ease-in-out;*/
+    transition: all 0.25s ease-in-out;
+	width: 100px;
+	height: 60px;
+	font-family: 'Inconsolata';
+	font-size: 14pt;
+}
+
+IMG{
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.button-opening
+{
+    /*-webkit-appearance: none;*/
+    margin-top: 15px;
+    position: relative;
+    display: inline-block;
+    background: #98c593;
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    /*-moz-transition: all 0.25s ease-in-out;*/
+    /*-webkit-transition: all 0.25s ease-in-out;*/
+    /*-o-transition: all 0.25s ease-in-out;*/
+    /*-ms-transition: all 0.25s ease-in-out;*/
+    transition: all 0.25s ease-in-out;
+    width: 80px;
+}

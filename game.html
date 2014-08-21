@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/gamescript.js"></script>
+    <title>Game</title>
+    <link rel="stylesheet" href="css/innerpage.css" />
+	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light|Raleway:300|Inconsolata' rel='stylesheet' type='text/css'>
+
+</head>
+<body class="loading">
+	<div id="wrapper">
+
+		<div id="left-column">
+				<div id="menuBar" style="background-color:#6B9C60;height:900px;width:200px;float:left; top: 0;">
+					<ul>
+						<a href="home.html" class="button" style="margin-top:24px;">Home</a>
+						<div class="divider"/>
+						   <!-- 
+			<a href="Charts.html" class="button">Charts</a>
+							<div class="divider"/>
+			 -->
+						<a href="funFacts.html" class="button">Fun Facts</a>
+						<div class="divider"/>
+						<a href="game.html" class="button">Game!</a>
+
+					</ul>
+				</div>
+		</div>
+
+
+		<div id="right-column">
+			<div id="inner-game">
+					<h1 id="instructions">Test your knowledge and type which bin each item belongs in. <br> Let's see how quickly you can type!</h1>
+					<h1>Choose between recycling, landfill, and compost.</h1>
+					<div id="game-buttons">
+						<button id="start" class="game-button">Start Game!</button>
+						<button id="restart" class="game-button">Restart</button>
+					</div>
+
+					<h2 id="wordToType"></h2>
+					
+					<input style ="width: 45%;" id="wordBox" placeholder="recycling, landfill, or compost?" />
+					<h3 id="showwords"></h3>
+					<h4 id="info"> </h4>
+					<h5 id="timing"</h5>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

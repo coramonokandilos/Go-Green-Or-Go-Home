@@ -1,0 +1,75 @@
+#bg {
+	-moz-animation: none;
+	-webkit-animation: header 0s 0s forwards;
+	-o-animation: none;
+	-ms-animation: none;
+	animation: none;
+	infinite: none;
+	-webkit-backface-visibility: none;
+	-o-backface-visibility: none;
+	-ms-backface-visibility: none;
+	backface-visibility: none;
+	-moz-transform: none;
+	-webkit-transform: none;
+	-o-transform: none;
+	-ms-transform: none;
+	transform: none;
+	background-color: #14510d;
+	background-image: none;
+	background-position: none;
+	background-repeat: none;
+	height: none;
+	left: none;
+	opacity: none;
+	position: none;
+	top: none;
+}
+
+#header{
+	-moz-animation: none;
+	-webkit-animation: header 0s 0s forwards;
+	-o-animation: none;
+	-ms-animation: none;
+	animation: none;
+	-moz-backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-transform: none;
+	-webkit-transform: none;
+	-o-transform: none;
+	-ms-transform: none;
+	transform: none;
+	cursor: default;
+	display: inline-block;
+	opacity: 0;
+	position: relative;
+	text-align: center;
+	top: -1em;
+	vertical-align: middle;
+	width: 75%;
+}
+
+#openingbutton
+{
+    /*-webkit-appearance: none;*/
+
+    display: inline-block;
+    background: #98c593;
+    padding: 0.85em 3em 0.85em 3em;
+/*     margin-left: -25em; */
+/*     margin-top: -em; */
+    border-radius: 0.5em;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    /*-moz-transition: all 0.25s ease-in-out;*/
+    /*-webkit-transition: all 0.25s ease-in-out;*/
+    /*-o-transition: all 0.25s ease-in-out;*/
+    /*-ms-transition: all 0.25s ease-in-out;*/
+    /*transition: all 0.25s ease-in-out;*/
+    transition: all 0.25s ease-in-out;
+}
